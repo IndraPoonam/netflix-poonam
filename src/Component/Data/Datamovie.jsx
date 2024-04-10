@@ -25,7 +25,7 @@ function Datamovie() {
               {value.id}
             </h2>
             <h1>{value.title}</h1>
-          </div>
+          <img className='h-[50vh] ' src='https://img.freepik.com/premium-vector/movie-theater-signboard-blue_34230-295.jpg'/></div>
         ))}
       </div>
     </>

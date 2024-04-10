@@ -4,6 +4,7 @@ import Compfive from './Component/Compfive';
 import Compfour from './Component/Compfour';
 import Compthird from './Component/Compthird';
 import Datamovie from './Component/Data/Datamovie';
+import DataFlowEvent from './Component/Dataflowevent/DataFlowEvent';
 import Footer from './Component/Footer/Footer';
 import Home from './Component/Home/Home';
 import Homeapi from './Component/Home/Homeapi';
@@ -26,7 +27,9 @@ function App() {
 {/* <Login/> */}
 {/* <Innercon/>
 <Moviesshow/> */}
-<Datamovie/>
+{/* <Datamovie/> */}
+
+<DataFlowEvent/>
     </>
   );
 }
