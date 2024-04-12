@@ -1,9 +1,8 @@
 import React from 'react'
 // import logo from './logo.png'
-import { useEffect,useState } from 'react';
 
 const Navbar=()=> {
-  const [accessToken, setAccessToken] = useState('');
+  // const [accessToken, setAccessToken] = useState('');
 
   const handleLogin = () => {
       const CLIENT_ID = '559402968496-200ia1m5uvl06urs44g82thipc6ruerg.apps.googleusercontent.com';
@@ -14,15 +13,15 @@ const Navbar=()=> {
       window.location.href = AUTH_URL;
   };
 
-  const getAccessToken = ()=>{
-    const url =window.location.href
-    const token = url.match(/access_token=([^&]+)/)
-    localStorage.setItem("Token",token && token[1])
-  }
+  // const getAccessToken = ()=>{
+  //   const url =window.location.href
+  //   const token = url.match(/access_token=([^&]+)/)
+  //   localStorage.setItem("Token",token && token[1])
+  // }
 
-  useEffect(()=>{
-    getAccessToken()
-  },[])
+  // useEffect(()=>{
+  //   getAccessToken()
+  // },[])
 
   return (
     <>

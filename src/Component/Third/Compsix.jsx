@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 const Compsix = () => {
     const [visibility, setVisibility] = useState({});
-    const [successMessage, setSuccessMessage] = useState('');
+    
     const toggleVisibilty = (index) => {
         setVisibility(prevVisibilty => ({
             ...prevVisibilty,
@@ -11,7 +11,7 @@ const Compsix = () => {
     };
     return (
         <>
-     <div className=' bg-black h-fit border-y-8 border-gray-800  pt-[4.7rem] flex justify-center'>
+     <div className=' bg-black h-fit w-full border-y-8 border-gray-800  pt-[4.7rem] flex justify-center overflow-hidden'>
                  <div className=''>
                      <h1 className='text-white font-bold text-5xl  pl-[15rem] '>Frequently Asked Questions</h1>
                      
